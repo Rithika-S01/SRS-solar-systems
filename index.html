@@ -15,17 +15,20 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Vigoe Voice AI Widget (HTTPS) -->
-    <script src="https://vigoe.ai/js/voice-ai-widget.js?v=20260319p"
-        data-company="srs-solar-systems"
-        data-base-url="https://vigoe.ai/"
-        data-iframe-path="voice-ai/srs-solar-systems"
-        data-use-server-theme="false"
-        data-show-ring="false"
-        data-primary="#0ea5e9"
-        data-secondary="#0081c5"
-        data-message-pointer-color="#0081c5"
-        data-show-message-image="false">
-    </script>
+    
+<!-- VIGOE AI Voice Assistant - SRS Green Theme -->
+<script src="https://vigoe.ai/js/voice-ai-widget.js?v=20260319p"
+    data-company="srs-solar-systems"
+    data-base-url="https://vigoe.ai/"
+    data-iframe-path="voice-ai/srs-solar-systems"
+    data-use-server-theme="false"
+    data-show-ring="false"
+    data-primary="#173d32"
+    data-secondary="#2f6048"
+    data-message-pointer-color="#173d32"
+    data-show-message-image="false">
+</script>
+
 
 </head>
 
@@ -1819,9 +1822,16 @@
 
 
 
-<!-- =========================
-     CHATBOT BUTTON
-========================= -->
+
+<!--
+=========================================================
+OLD SRS CHATBOT - TEMPORARILY DISABLED
+Using VIGOE AI Voice Assistant instead.
+Remove this outer comment to restore the old chatbot.
+=========================================================
+
+CHATBOT BUTTON
+=========================================================
 
 <button
     class="chatbot-button"
@@ -1833,16 +1843,13 @@
 </button>
 
 
-
-<!-- =========================
-     CHATBOT
-========================= -->
+CHATBOT
+=========================================================
 
 <div
     class="chatbot"
     id="chatbot"
     aria-hidden="true">
-
 
     <div class="chatbot-header">
 
@@ -1873,7 +1880,6 @@
         class="chatbot-messages"
         id="chatbotMessages">
 
-
         <div class="bot-message">
 
             Hi! 👋 Welcome to
@@ -1890,61 +1896,68 @@
 
         <div class="quick-questions">
 
-    <button data-question="What does SRS do?">
-        What do you do?
-    </button>
+            <button data-question="What does SRS do?">
+                What do you do?
+            </button>
 
-    <button data-question="What products do you have?">
-        Products
-    </button>
+            <button data-question="What products do you have?">
+                Products
+            </button>
 
-    <button data-question="What solar solutions do you provide?">
-        Solar Solutions
-    </button>
+            <button data-question="What solar solutions do you provide?">
+                Solar Solutions
+            </button>
 
-    <button data-question="Tell me about your projects">
-        Our Projects
-    </button>
+            <button data-question="Tell me about your projects">
+                Our Projects
+            </button>
 
-    <button data-question="What smart solutions do you provide?">
-        Smart Solutions
-    </button>
+            <button data-question="What smart solutions do you provide?">
+                Smart Solutions
+            </button>
 
-    <button data-question="How can I contact you?">
-        Contact
-    </button>
+            <button data-question="How can I contact you?">
+                Contact
+            </button>
 
-    <button data-question="I need a quotation">
-        Get a Quote
-    </button>
-    <button data-question="Where are you located?">
-    📍 Location
-</button>
+            <button data-question="I need a quotation">
+                Get a Quote
+            </button>
 
-</div>
-    
+            <button data-question="Where are you located?">
+                📍 Location
+            </button>
 
-
-    <div class="chatbot-input">
-
-        <input
-            type="text"
-            id="chatInput"
-            placeholder="Ask about SRS..."
-            autocomplete="off">
+        </div>
 
 
-        <button
-            id="sendMessage"
-            aria-label="Send message">
+        <div class="chatbot-input">
 
-            ➤
+            <input
+                type="text"
+                id="chatInput"
+                placeholder="Ask about SRS..."
+                autocomplete="off">
 
-        </button>
+            <button
+                id="sendMessage"
+                aria-label="Send message">
+
+                ➤
+
+            </button>
+
+        </div>
 
     </div>
 
 </div>
+
+=========================================================
+END OF OLD SRS CHATBOT
+=========================================================
+-->
+
 
 
 
